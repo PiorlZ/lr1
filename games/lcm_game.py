@@ -2,12 +2,9 @@
 LCM Game module: The player is asked to find the least common multiple (LCM) of random numbers.
 """
 
-import sys
-import os
 import random
 import math
 from src.engine import play_game
-sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
 
 def find_lcm(numbers):
