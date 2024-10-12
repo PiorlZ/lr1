@@ -2,11 +2,8 @@
 Progression Game module: The player is asked to find the missing number in a geometric progression.
 """
 
-import sys
-import os
 import random
 from src.engine import play_game
-sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
 
 def generate_progression():
